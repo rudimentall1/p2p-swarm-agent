@@ -20,7 +20,7 @@ A peer-to-peer agent system for robot swarms, drones, and AI agents. Every messa
 
 ## Demo Video
 
-https://youtu.be/XfRwFAQPLCs
+[https://youtu.be/XfRwFAQPLCs](https://youtu.be/XfRwFAQPLCs)
 
 ---
 
@@ -62,6 +62,7 @@ Hash is compared with the previous one
 If changed, it's logged as ready for on-chain settlement
 
 Future version will call a Sui smart contract to store the hash
+
 Tech Stack
 P2P Layer: libp2p (via FoxMQ broker)
 
@@ -94,7 +95,7 @@ Author
 Rinat
 GitHub: rudimentall1
 DoraHacks: Rinat
+
 License
 MIT
-
 Built for the Vertex Swarm Challenge 2026 with support from Tashi Network.
