@@ -1,0 +1,5 @@
+[users.agent_a]
+password-hash = "$argon2id$v=19$m=19456,t=2,p=1$KMgbQ9zkGGxDkT7TGyHF7Q$3hxJoonlzcqDHCU/cPJX4tUpD3ob2fXaqfd8kUo8jd8"
+
+[users.agent_b]
+password-hash = "$argon2id$v=19$m=19456,t=2,p=1$9RsiLuwLHekccSVktZsFuA$l3BKGfhV5SN2S/27/UCKyNf/btq//yqKyKuHMXUGh0A"
