@@ -8,6 +8,7 @@ A peer-to-peer agent system for robot swarms, drones, and AI agents. Every messa
 
 ## Features
 
+- **Telegram AI-agent** — control the swarm via `/status`, `/change_leader`, `/send_hash`
 - **3+ agents** with automatic P2P discovery (libp2p + FoxMQ)
 - **Ed25519 signatures** — every message is signed and verified
 - **Auto role switching** — leader election every 30 seconds
@@ -25,6 +26,16 @@ A peer-to-peer agent system for robot swarms, drones, and AI agents. Every messa
 ---
 
 ## Quick Start
+
+### Telegram Bot
+Find the bot: [@P2PSwarmBot](https://t.me/P2PSwarmBot)
+
+Commands:
+- `/start` — show available commands
+- `/run` — start 3 agents
+- `/status` — show current swarm status
+- `/change_leader` — force leader election (simulated)
+- `/send_hash` — send state hash to Sui (simulated)
 
 ### Prerequisites
 - Python 3.10+
