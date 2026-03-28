@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>P2P Swarm Agent</title>
+    <style>
+        body { font-family: monospace; background: #0a0f1e; color: #0f0; padding: 20px; }
+        .agent { border: 1px solid #0f0; margin: 10px; padding: 10px; }
+        pre { font-size: 12px; overflow-x: auto; }
+        button { background: #0a0f1e; color: #0f0; border: 1px solid #0f0; padding: 10px; margin: 5px; cursor: pointer; }
+        button:hover { background: #0f0; color: #0a0f1e; }
+    </style>
+</head>
+<body>
+    <h1>🐝 P2P Swarm Agent</h1>
+    <div>
+        <button onclick="fetch('/api/e_stop')">E-STOP</button>
+        <button onclick="location.reload()">Refresh</button>
+    </div>
+    <div id="agents"></div>
+    <script>
+        function update() {
+            fetch('/api/state')
+                .then(res => res.json())
+                .then(data => {
+                    const container = document.getElementById('agents');
+                    container.innerHTML = data.agents.map(agent => `
+                        <div class="agent">
+                            <h2>${agent.name}</h2>
+                            <pre>${agent.logs.join('')}</pre>
+                        </div>
+                    `).join('');
+                });
+        }
+        setInterval(update, 2000);
+        update();
+    </script>
+</body>
+</html>

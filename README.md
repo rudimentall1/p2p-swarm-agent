@@ -110,3 +110,35 @@ DoraHacks: Rinat
 License
 MIT
 Built for the Vertex Swarm Challenge 2026 with support from Tashi Network.
+
+## Web Dashboard
+
+Run the web dashboard to monitor swarm state in real time:
+
+```bash
+cd web
+python app.py
+Open http://localhost:5001
+
+Tests
+Run tests with pytest:
+pytest tests/
+┌─────────────────┐     ┌─────────────────┐
+│   Agent A       │     │   Agent B       │
+│  (Ed25519)      │◄───►│  (Ed25519)      │
+└────────┬────────┘     └────────┬────────┘
+         │                       │
+         └───────────┬───────────┘
+                     │
+              ┌──────▼──────┐
+              │   FoxMQ     │
+              │   Broker    │
+              └──────┬──────┘
+                     │
+              ┌──────▼──────┐
+              │   Web       │
+              │   Dashboard │
+              └─────────────┘
+Screenshots
+https://screenshots/dashboard.png
+https://screenshots/telegram.png
