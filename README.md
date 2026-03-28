@@ -4,8 +4,6 @@ Decentralized swarm coordination with Ed25519 cryptographic signatures and Sui b
 
 A peer-to-peer agent system for robot swarms, drones, and AI agents. Every message is signed and verified. State changes are hashed and prepared for settlement on the Sui blockchain.
 
----
-
 ## Features
 
 - **Telegram AI-agent** — control the swarm via `/status`, `/change_leader`, `/send_hash`
@@ -17,13 +15,9 @@ A peer-to-peer agent system for robot swarms, drones, and AI agents. Every messa
 - **Sui blockchain integration** — prepared for settlement via smart contracts
 - **Docker ready**
 
----
-
 ## Demo Video
 
-[Watch the demo](https://youtu.be/tmBqATscPNc)
-
----
+[Watch the demo](https://youtu.be/510ubVJ6yJE)
 
 ## Quick Start
 
@@ -102,20 +96,8 @@ Real Sui smart contract deployment
 Web dashboard with real-time swarm map
 
 Docker Compose for one-command launch
-Author
-Rinat
-GitHub: rudimentall1
-DoraHacks: Rinat
-
-License
-MIT
-Built for the Vertex Swarm Challenge 2026 with support from Tashi Network.
-
-## Web Dashboard
-
+Web Dashboard
 Run the web dashboard to monitor swarm state in real time:
-
-```bash
 cd web
 python app.py
 Open http://localhost:5001
@@ -123,6 +105,7 @@ Open http://localhost:5001
 Tests
 Run tests with pytest:
 pytest tests/
+Architecture Diagram
 ┌─────────────────┐     ┌─────────────────┐
 │   Agent A       │     │   Agent B       │
 │  (Ed25519)      │◄───►│  (Ed25519)      │
@@ -140,5 +123,14 @@ pytest tests/
               │   Dashboard │
               └─────────────┘
 Screenshots
-https://screenshots/dashboard.png
-https://screenshots/telegram.png
+https://screenshots/web-dashboard.png
+https://screenshots/telegram-bot.png
+
+Author
+Rinat
+GitHub: rudimentall1
+DoraHacks: Rinat
+
+License
+MIT
+Built for the Vertex Swarm Challenge 2026 with support from Tashi Network.
