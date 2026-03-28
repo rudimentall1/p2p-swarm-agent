@@ -123,7 +123,10 @@ Architecture Diagram
               │   Dashboard │
               └─────────────┘
 Screenshots
-GitHub: [rudimentall1](https://github.com/rudimentall1)
+## Screenshots
+
+![Web Dashboard](screenshots/web-dashboard.png)
+![Telegram Bot](screenshots/telegram-bot.png)
 
 Author
 Rinat
