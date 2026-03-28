@@ -123,8 +123,8 @@ Architecture Diagram
               │   Dashboard │
               └─────────────┘
 Screenshots
-https://screenshots/web-dashboard.png
-https://screenshots/telegram-bot.png
+![Web Dashboard](screenshots/web-dashboard.png)
+![Telegram Bot](screenshots/telegram-bot.png)
 
 Author
 Rinat
