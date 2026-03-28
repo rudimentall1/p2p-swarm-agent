@@ -128,10 +128,11 @@ Screenshots
 ![Web Dashboard](screenshots/web-dashboard.png)
 ![Telegram Bot](screenshots/telegram-bot.png)
 
-Author
-Rinat
-GitHub: rudimentall1
-DoraHacks: Rinat
+## Author
+
+Rinat  
+GitHub: [rudimentall1](https://github.com/rudimentall1)  
+DoraHacks: [Rinat](https://dorahacks.io/hacker/Rinat)
 
 License
 MIT
