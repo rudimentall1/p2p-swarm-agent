@@ -17,7 +17,7 @@ A peer-to-peer agent system for robot swarms, drones, and AI agents. Every messa
 
 ## Demo Video
 
-[Watch the demo](https://youtu.be/510ubVJ6yJE)
+[https://youtu.be/wPrjfRDa140](https://youtu.be/wPrjfRDa140)
 
 ## Quick Start
 
